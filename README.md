@@ -11,18 +11,18 @@ Technology democratization is the answer!
 What is the framework?
 It is:
 A real time violence detector framework built using computer vision, it comprehends but is not limited to:
-Dataset and it's composition
-Image preprocessing
-Network architecture: object detection / image classification
-Keypoint extraction
-Decision rules for the detection
+Dataset and it's composition,
+Image preprocessing,
+Network architecture: object detection / image classification,
+Keypoint extraction,
+Decision rules for the detection,
 *Software must be hardware independent as much as much as possible
 It is not:
-Final product development
-Hardware related project 
-Privacy related discussion
+Final product development,
+Hardware related project,
+Privacy related discussion,
 It did not supposed to cover:
-Software not related to the detection
+Software not related to the detection,
 OS related matters as drivers, packages or external dependencies
 
 Our target
@@ -42,19 +42,19 @@ It is composed by python detection class file and a frozen model file.
 The target is being as much as possible platform invariant.
 
 Types of Violence targeted:
-Assault
-Fight
-Lynching
-Hand gun
-Knife
-Terrorism
+Assault,
+Fight,
+Lynching,
+Hand gun,
+Knife,
+Terrorism,
 General violent behavior
 
 Violence detection class:
-Image(s) preprocessing and normalization
-Region of interesting and foreground extraction
-Load model
-Prediction based on model
-Prediction result interpretation and result
+Image(s) preprocessing and normalization,
+Region of interesting and foreground extraction,
+Load model,
+Prediction based on model,
+Prediction result interpretation and result,
 Return yes/no
 
