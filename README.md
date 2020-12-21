@@ -57,6 +57,6 @@ To keep it simple at the first moment the focus will be in the A mode, since the
 - General violent behavior
 
 ### What is next?
-If you want to contribute with the project, please take a look in the CONTRIBUTORS.md where you can find relevant additional information about the project.
+If you want to contribute with the project, please take a look in the [CONTRIBUTORS.md](CONTRIBUTORS.md) where you can find relevant additional information about the project.
 
 In case of questions, please contact us contact@violencedetector.org
