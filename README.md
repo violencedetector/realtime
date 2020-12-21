@@ -56,7 +56,7 @@ To keep it simple at the first moment the focus will be in the A mode, since the
 - Terrorism,
 - General violent behavior
 
-### What is next
+### What is next?
 If you want to contribute with the project, please take a look in the CONTRIBUTORS.md where you can find relevant additional information about the project.
 
 In case of questions, please contact us contact@violencedetector.org
