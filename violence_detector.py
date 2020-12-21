@@ -1,6 +1,6 @@
 #################################################################
 #VIOLENCE DETECTOR PROJECT MORE INFO AT violencedetector.org
-#Usage python3 violence_detector.py
+#Usage python3 violence_detector.py -i gun.jpg
 #################################################################
 
 from keras.applications.mobilenet import MobileNet
