@@ -79,14 +79,15 @@ I've created one additional method under the main class TfPoseEstimator for supp
 You can replace the standard file by the enhanced one(estimator.py) available here in this repo, simply overwriting it under its location(Pose_Estimation/tf-pose-estimation/tf_pose).
 
 Before running the test(article.py) you need 3 steps:
-- 1-Copy the frames to be processed, I've added a test sample of violence and non-violence under the image folder. 
+- 1-Copy the frames(*) to be processed, I've added a test sample of violence and non-violence under the image folder. 
 - 2-Copy the trained model(best_acc_final.keras) to the tf-pose-estimation folder.
 - 3-Copy the python script article.py
 Now you can run the test passing the frames location as a parameter like that:
 ```
- python3 test1.py --file cam22.mp4*
+ python3 article.py --file cam22.mp4*
 ```
 Note: For keeping this example simple, the code is limited to 2 individuals, nevertheless there is no limitation for the method.
+The last frame will be presented with the OpenPose points, after clicking ESC you will see the array of the inference result for each individual in the submited timeseries.
 
 * Images extracted from the dataset(which was not the same used for the training): 
 M. Bianculli, N. Falcionelli, P. Sernani, S. Tomassini, P. Contardo, M. Lombardi, A.F. Dragoni, A dataset for automatic violence detection in videos, Data in Brief 33 (2020). doi:10.1016/j.dib.2020.106587.
