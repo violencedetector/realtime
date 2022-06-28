@@ -204,14 +204,14 @@ if __name__ == '__main__':
             break
         logger.debug('finished+')
 
-    print("Model LSTM: ")
     model = load_model("best_acc_final.keras")
     predictions = model.predict(consolidated_features_lstm)
-    print(np.argmax(predictions, axis=1))
+    result=str(np.argmax(predictions, axis=1))
+    
 
     cv2.imshow('tf-pose-estimation result', image)
     while cv2.waitKey(1) != 27:            
-        a=0
+        print("PREDICT RESULT [0-NO VIOLENCE 1-VIOLENCE]: "+result)
 
 
 
