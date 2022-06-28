@@ -62,7 +62,7 @@ If you want to contribute with the project, please take a look in the [CONTRIBUT
 In case of questions, please contact us contact@violencedetector.org
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-##Step by step for the article demo:
+## Step by step for the article demo:
 
 To run the method in the article(https://www.igi-global.com/article/simple-approach-for-violence-detection-in-real-time-videos-using-pose-estimation-with-azimuthal-displacement-and-centroid-distance-as-features/304462) you firstly need to install the OpenPose framework.
 
@@ -70,9 +70,9 @@ There are multiple installation options, this is the official Repo:
 https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md
 
 In my case, I've used one other repo with a tensorflow implementation(https://github.com/ZheC/tf-pose-estimation) which I've cloned:
-$ git clone https://www.github.com/ildoonet/tf-openpose
-$ cd tf-openpose
-$ pip3 install -r requirements.txt
+ git clone https://www.github.com/ildoonet/tf-openpose
+ cd tf-openpose
+ pip3 install -r requirements.txt
 
 I've created one additional method under the main class TfPoseEstimator for supporting the feature extrataction. 
 You can replace the standard file by the enhanced one(estimator.py) available here in this repo, simply overwriting it under its location(Pose_Estimation/tf-pose-estimation/tf_pose).
@@ -82,7 +82,7 @@ Before running the test(article.py) you need 3 steps:
 2-Copy the trained model(best_acc_final.keras) to the tf-pose-estimation folder.
 3-Copy the python script article.py
 Now you can run the test passing the frames location as a parameter like that:
-$ python3 test1.py --file cam22.mp4*
+ python3 test1.py --file cam22.mp4*
 Note: For keeping this example simple, the code is limited to 2 individuals, nevertheless there is no limitation for the method.
 
 * Images extracted from the dataset(which was not the same used for the training): 
