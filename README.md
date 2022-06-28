@@ -88,7 +88,7 @@ Now you can run the test passing the frames location as a parameter like that:
 ```
 Note: For keeping this example simple, the code is limited to 2 individuals, nevertheless there is no limitation for the method.
 
-The last frame will be presented with the OpenPose points, after clicking ESC you will see the array of the inference result for each individual in the submited timeseries.
+The last frame will be presented with the OpenPose points, after clicking ESC you will see the array of the inference result for each individual in the timeseries submitted.
 
 (*) Images extracted from the dataset(which was not the same used for the training): 
 M. Bianculli, N. Falcionelli, P. Sernani, S. Tomassini, P. Contardo, M. Lombardi, A.F. Dragoni, A dataset for automatic violence detection in videos, Data in Brief 33 (2020). doi:10.1016/j.dib.2020.106587.
